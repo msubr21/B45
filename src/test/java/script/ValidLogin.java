@@ -23,7 +23,7 @@ public class ValidLogin extends BaseTest
 		extentTest.log(Status.INFO, "Enter valid user name:"+un);
 		
 //		2. Enter valid password
-		loginPage.setPassword(pw);
+		loginPage.setPassword("pw");
 		extentTest.log(Status.INFO, "Enter valid password:"+pw);
 		
 //		3. click on login button
